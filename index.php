@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-define('BASE', 'http://localhost/cursos/ws_html5/02-html5-semantico/');
+define('BASE', 'http://localhost/html5');
 ?>
 <html lang="pt-br">
     <head>
@@ -10,8 +10,10 @@ define('BASE', 'http://localhost/cursos/ws_html5/02-html5-semantico/');
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-
-        <link rel="stylesheet" href="css/oocss.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100, 300, 400, 700" rel="stylesheet">
+        <link rel="stylesheet" href="css/boot.css"/>
+        
+        <link rel="shortcut icon" href="img/favicon.png" />
     </head>
     <body>
         <header class="container bg-gray">
