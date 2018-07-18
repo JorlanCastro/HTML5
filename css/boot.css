@@ -31,14 +31,35 @@ a{text-decoration: none;}
 a img {border:0;}
 
 
+/*BACKGROUND*/
+.bg-body{background-color: #fbfbfb; color: #333;}
+.bg-gray{background-color: #444444; color: #fff;}
+.bg-light{background-color: #E6E4D9; color: #444;}
+.bg-blue{background-color: #34495e; color: #fff;}
+.bg-bluelight{background-color: #ccd8d1; color: #444;}
+.bg-orange{background-color: #e16f4d; color: #fff;}
+
+/*FONT WEIGHT*/
+.font-thinm{ font-weight: 100 !important;}
+.font-light{ font-weight: 300 !important;}
+.font-normal{ font-weight: 400 !important;}
+.font-bold{ font-weight: 700 !important;}
+
+/*FONT SIZE*/
+.fontzero{font-size: 0em !important;}
+.fontsize1{font-size: 1em;}
+.fontsize1b{font-size: 1.5em;}
+.fontsize2{font-size: 2em;}
+.fontsize2b{font-size: 2.5em;}
+.fontsize3{font-size: 3em;}
+.fontsize3b{font-size: 3.5em;}
 
 
+/*CONTEINER*/
 .container{float: left; width: 100%;}
 .content{width: 80%; margin: 0 10%; padding: 40px 0;}
 
-.bg-gray{background-color: #444444; color: #fff;}
-.bg-light{background-color: #E6E4D9; color: #444;}
 
+/*HELPERS*/
 .clear{clear: both;}
 
-.fontzero{font-size: 0em;}

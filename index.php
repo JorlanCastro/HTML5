@@ -57,7 +57,7 @@ define('BASE', 'http://localhost/html5');
                 <div class="clear"></div>
             </div>
 
-            <footer class="bg-gray">
+            <footer class="bg-bluelight">
                 <section class="content">
                     <h1>Veja Algumas Aulas do Curso WS HTML5!</h1>
 
@@ -99,7 +99,7 @@ define('BASE', 'http://localhost/html5');
         </article>
 
         <!--seção relacional-->
-        <section class="container">
+        <section class="container bg-orange">
             <!--container do title-->
             <div class="content">
                 <hgroup>
@@ -110,7 +110,7 @@ define('BASE', 'http://localhost/html5');
             </div>
 
             <!--container dos artigos-->
-            <div class="container bg-gray">
+            <div class="container bg-body">
                 <div class="content">
                     <article>
                         <img src="img/tec_semantic.png" alt="HTML5 Semântico" title="Módulo de HTML5 Semântico">
@@ -153,7 +153,7 @@ define('BASE', 'http://localhost/html5');
         </section>
 
         <!--seção temática-->
-        <section class="container">
+        <section class="container bg-bluelight">
             <div class="content">
                 <div class="ses_title">
                     <h1>Ficha Técnica:</h1>
@@ -170,7 +170,7 @@ define('BASE', 'http://localhost/html5');
         </section>
 
         <!--retomada e converção-->
-        <article class="container bg-gray">
+        <article class="container bg-orange">
             <div class="content">
                 <header>
                     <hgroup>
