@@ -121,3 +121,36 @@ a img {border:0;}
     -moz-box-shadow: insert 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,05);
     box-shadow: insert 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,05);
 }
+.btn-big{font-size: 1.8em; padding:20px 40px;}
+
+.btn-blue{background-color: #59aed1; border-color: #4e99b7;}
+.btn-blue:hover{background-color: #64c3ea; border-color: #59aed1}
+.btn-green{background-color: #59ab66; border-color: #4b9157;}
+.btn-green:hover{background-color: #66c475; border-color: #59aa66;}
+.btn-yelow{background-color: #d1be5a; border-color: #b7a64e;}
+.btn-yelow:hover{background-color: #d1bd59; border-color: #d1be5a;}
+.btn-red{background-color: #b26a6a; border-color: #995b5b;}
+.btn-red:hover{background-color: #cc7979; border-color: #b26a6a;}
+
+/*TRIGGER*/
+.trigger{float: left; width:100%; padding: 25px; font-size: 1.2em; margin-bottom: 30px;}
+.trigger-bottom{margin:30px 0 0 0;}
+
+.trigger-accept{background-color: #accc9a; color: #6b7f60;}
+.trigger-infor{background-color: #9ab7cc; color: #60727f;}
+.trigger-alert{background-color: #c6b247; color: #776b2b;}
+.trigger-error{background-color: #e69f9f; color: #996a6a;}
+
+/*SHORT ICONS*/
+.shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+.shotcion-sectiontitle{padding-left: 60px;}
+
+
+.shoticon-facebook{background-image: url(boot/social/facebook.png);}
+.shoticon-google{background-image: url(boot/social/google.png);}
+.shoticon-twitter{background-image: url(boot/social/twitter.png);}
+
+.shoticon-config{background-image: url(boot/icons/config.png);}
+.shoticon-mail{background-image: url(boot/icons/mail.png);}
+.shoticon-section{background-image: url(boot/icons/section.png);}
+
