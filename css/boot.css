@@ -58,7 +58,11 @@ a img {border:0;}
 /*CONTEINER*/
 .container{float: left; width: 100%;}
 .content{width: 80%; margin: 0 10%; padding: 40px 0;}
+.content-page{padding: 60px 0;}
 
+.sectiontitle{float:left; widht: 100%; margin-bottom: 30px; text-align: center;}
+.sectiontitle h1{font-size: 2.4em; font-weight: 300; margin-bottom: 10px;}
+.sectiontitle h2{font-size: 1.4em; font-weight: 300; }
 
 /*HELPERS*/
 .clear{clear: both;}
