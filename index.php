@@ -9,22 +9,24 @@ define('BASE', 'http://localhost/html5');
 
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
-        <![endif]-->
-        <link href="https://fonts.googleapis.com/css?family=Lato:100, 300, 400, 700" rel="stylesheet">
+        <![endif]-->   
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>        
         <link rel="stylesheet" href="css/boot.css"/>
-        
-        <link rel="shortcut icon" href="img/favicon.png" />
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <link rel="shortcut icon" href="img/favicon.png"/>
     </head>
-    <body>
+    <body>        
         <header class="container bg-gray">
             <div class="content">
-                <h1 class="main_logo">
-                    <a title="Home" href="<?= BASE; ?>">
+                <h1 class="main_logo fl-left fontzero">
+                    <a title="Home" href="<?= BASE; ?>" class="radius">
                         Curso Work Series - HTML5 do Jeito Certo!
                     </a>
                 </h1>
 
-                <ul class="main_nav">
+                <ul class="main_nav fl-right">
                     <li><a title="HTML5 Semântico" href="<?= BASE; ?>/html5-semantico">Semântica</a></li>
                     <li><a title="Estilo Produtivo com OOCSS" href="<?= BASE; ?>/estilo-com-oocss">OOCSS</a></li>
                     <li><a title="Formulários com HTML5" href="<?= BASE; ?>/formularios-com-html5">Forms</a></li>
@@ -44,7 +46,7 @@ define('BASE', 'http://localhost/html5');
                 <header>
                     <hgroup>
                         <h1>Conheça o curso WS HTML5!</h1>
-                        <h2>Veja o que o tutor do curso <mark>Robson V. leite</mark> tem a dizer!</h2>
+                        <h2>Veja o que o tutor do curso <mark>Robson V. Leite</mark> tem a dizer!</h2>
                     </hgroup>
                 </header>
 
@@ -205,31 +207,31 @@ define('BASE', 'http://localhost/html5');
             <section class="main_footer content">
                 <h1 class="fontzero">Sobre a UpInside Treinamentos</h1>
 
-                <nav class="main_nav">
-                    <h1 class="title">Mais sobre o WS HTML5:</h1>
+                <nav class="box box-medium">
+                    <h1 class="title font-bold">Mais sobre o WS HTML5:</h1>
                     <ul>
-                        <li><a title="Assita o vídeo de apresentação com Robson V. Leite" href="#apresentacao">Assista o Vídeo</a></li>
-                        <li><a title="Veja as tecnologias que você vai aprender!" href="#tecnologias">Você vai Aprender</a></li>
-                        <li><a title="Mais informações na ficha técnica do curso!" href="#fichatecnica">Ficha Técnica</a></li>
+                        <li><a class="shoticon shoticon-section" title="Assita o vídeo de apresentação com Robson V. Leite" href="#apresentacao">Assista o Vídeo</a></li>
+                        <li><a class="shoticon shoticon-section" title="Veja as tecnologias que você vai aprender!" href="#tecnologias">Você vai Aprender</a></li>
+                        <li><a class="shoticon shoticon-section" title="Mais informações na ficha técnica do curso!" href="#fichatecnica">Ficha Técnica</a></li>
                     </ul>
                 </nav>
 
-                <article class="main_social">
-                    <h1 class="title">UpInside nas redes sociais:</h1>
+                <article class="box box-medium">
+                    <h1 class="title font-bold">UpInside nas redes sociais:</h1>
                     <ul>
-                        <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Facebook" href="http://www.facebook.com/upinside">Facebook</a></li>
-                        <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Google Plus" href="http://plus.google.com/+upinside">Google+</a></li>
-                        <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Twitter" href="http://www.twitter.com/UpInsideBr">Twitter</a></li>
+                        <li><a class="shoticon shoticon-facebook" target="_blank" rel="nofollow" title="UpInside Treinamentos no Facebook" href="http://www.facebook.com/upinside">Facebook</a></li>
+                        <li><a class="shoticon shoticon-google" target="_blank" rel="nofollow" title="UpInside Treinamentos no Google Plus" href="http://plus.google.com/+upinside">Google+</a></li>
+                        <li><a class="shoticon shoticon-twitter" target="_blank" rel="nofollow" title="UpInside Treinamentos no Twitter" href="http://www.twitter.com/UpInsideBr">Twitter</a></li>
                     </ul>
                 </article>
 
-                <article class="main_copy">
+                <article class="main_ead box box-medium last">
                     <h1 class="fontzero">Plataforma UpInside</h1>
 
-                    <p><b>Plataforma EAD:</b> <a title="Plataforma EAD da UpInside" href="http://www.upisnide.com.br">www.upinside.com.br</a></p>
-                    <p><b>E-mail:</b> <a title="Envie um e-mail" href="mailto:cursos@upinside.com.br">cursos@upinside.com.br</a></p>
+                    <p class="shoticon shoticon-config"><b>Plataforma EAD:</b> <a title="Plataforma EAD da UpInside" href="http://www.upisnide.com.br">www.upinside.com.br</a></p>
+                    <p class="shoticon shoticon-mail"><b>E-mail:</b> <a title="Envie um e-mail" href="mailto:cursos@upinside.com.br">cursos@upinside.com.br</a></p>
                     <hr>
-                    <p>&copy; <?= date('Y'); ?> - UpInside Treinamentos, Todos Os Direitos Reservados!</p>
+                    <p class="plast">&copy; <?= date('Y'); ?> - UpInside Treinamentos, Todos Os Direitos Reservados!</p>
                 </article>
 
                 <div class="clear"></div>
