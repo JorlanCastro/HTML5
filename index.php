@@ -44,56 +44,58 @@ define('BASE', 'http://localhost/html5');
         <article class="container">
             <div class="content">
                 <header>
-                    <hgroup>
+                    <hgroup class="sectiontitle">
                         <h1>Conheça o curso WS HTML5!</h1>
                         <h2>Veja o que o tutor do curso <mark>Robson V. Leite</mark> tem a dizer!</h2>
                     </hgroup>
                 </header>
 
-                <video src="midias/apresentacao.mp4" controls width="400"></video>
+                <video class="video video-large main_video" src="midias/apresentacao.mp4" controls poster="img/entendendo-o-html5.jpg" width="400"></video>
 
-                <aside>
-                    <h1>Pronto para <a title="Comprar Curso WS HTML5 Agora!" target="_blank" href="http://www.upinside.com.br/curso/curso-html5">Comprar o WS HTML5</a> e Aprender de Verdade?</h1>
+                <aside class="al-center">
+                    <h1>Pronto para <a class="btn btn-yelow btn-larg" title="Comprar Curso WS HTML5 Agora!" target="_blank" href="http://www.upinside.com.br/curso/curso-html5">Comprar o WS HTML5</a> e Aprender de Verdade?</h1>
                 </aside>
 
                 <div class="clear"></div>
             </div>
 
             <footer class="bg-bluelight">
-                <section class="content">
+                <section class="content main_videos">
                     <h1>Veja Algumas Aulas do Curso WS HTML5!</h1>
 
-                    <article>
+                    <article class="box box-small">
                         <div class="thumb">
                             <div class="video_play"></div>
                             <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg"/>
                         </div>
-                        <h1>Entenda o HTML5</h1>
+                        <h1 class="box_video_title">Entenda o HTML5</h1>
                     </article>
 
-                    <article>
+                    <article class="box box-small">
                         <div class="thumb">
                             <div class="video_play"></div>
                             <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg"/>
                         </div>
-                        <h1>Entenda o HTML5</h1>
+                        <h1 class="box_video_title">Entenda o HTML5</h1>
                     </article>
 
-                    <article>
+                    <article class="box box-small">
                         <div class="thumb">
                             <div class="video_play"></div>
                             <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg"/>
                         </div>
-                        <h1>Entenda o HTML5</h1>
+                        <h1 class="box_video_title">Entenda o HTML5</h1>
                     </article>
+                    
 
-                    <article>
+                    <article class="box box-small last">
                         <div class="thumb">
                             <div class="video_play"></div>
                             <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg"/>
                         </div>
-                        <h1>Entenda o HTML5</h1>
+                        <h1 class="box_video_title al-center">Entenda o HTML5</h1>
                     </article>
+                    
 
                     <div class="clear"></div>
                 </section>
@@ -104,7 +106,7 @@ define('BASE', 'http://localhost/html5');
         <section class="container bg-orange">
             <!--container do title-->
             <div class="content">
-                <hgroup>
+                <hgroup class="sectiontitle sectiontitle-nomargin">
                     <h1>Conheça as tecnologias apresentadas:</h1>
                     <h2>O Curso WS HTML5 apresenta técnicas com foco em produção e otimização de conteúdo para internet!</h2>
                 </hgroup>
